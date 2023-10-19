@@ -7,15 +7,21 @@ from langchain.schema import(
 
 import streamlit as st
 from streamlit_chat import message
+# DECLARE THE OPEN AI KEY 
 
-#OPENAI_API_KEY="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"
+#OPENAI_API_KEY="your-open-ai-key"
 
-import os
-os.environ["OPENAI_API_KEY"] = "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"
+#OR
 
+#import os
+#os.environ["OPENAI_API_KEY"] = "your-open-ai-key"
+
+#OR 
 # loading the OpenAI api key from .env (OPENAI_API_KEY="sk-********")
 #from dotenv import load_dotenv, find_dotenv
 #load_dotenv(find_dotenv(), override=True)
+
+
 
 st.set_page_config(
     page_title='You Custom Assistant',
